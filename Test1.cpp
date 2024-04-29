@@ -3,7 +3,10 @@
 #include "gtest/gtest.h"
 using namespace std;
 
-TEST(vector<int> vv, vector<int> vv1)
+TEST()
 {
-	ASSERT_TRUE(vv != vv1);
+	vector<int> vv{1, 2, 3};
+	vector<int> vv1{2, 3, 4};
+	vv = vvv(vv, 1);
+	ASSERT_TRUE(vv == vv1);
 }
